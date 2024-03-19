@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+}
+.box{
+    border: 3px solid #d5dde2;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+#inpt1{
+    height: 27px;
+    border-radius: 10px;
+    border: 2px solid rgb(212, 212, 212);
+}
+#searchbtn{
+    height: 33px;
+    width: 65px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(34, 197, 197);
+}
+.bottom{
+    height: 35px;
+    display: flex;
+    gap: 4px;
+}
+.head{
+    justify-content: center;
+    display: flex;
+    width:100%;
+    background-color: #242a2e;
+    height: 100px;
+    padding: 8px;
+    margin-top: -8px;
+    margin-bottom: 25px;
+}
+.top{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 7px;
+    height: 35px;
+    margin-top: 20px;
+}
+.a1{
+    width: 40%;
+    text-align: right;
+    justify-self: end;
+    text-decoration: none;
+    height: 130px;
+}
+#img1{
+    width: auto;
+    height: 40px;
+}
+#header2{
+    color: white;
+    font-size: 33px;
+    font-weight:600;
+}
+#output{
+    height: 160px;
+}
+.git{
+    width: auto;
+    height: 25px;
+}
+.a2{
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.credits{
+    justify-content: center;
+    display: flex;
+    width:100%;
+    background-color: #242a2e;
+    align-items: center;
+    height: 65px;
+    padding: 0.78%;
+    margin-bottom: -1%;
+    margin-top: 81px;
+}
+#switch{
+    width: 70px;
+    height: 40px;
+    border: 2px solid #75838d;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
